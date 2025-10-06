@@ -1,0 +1,33 @@
+[
+    {
+      "id": 1,
+      "pattern": "(is ?x car)",
+      "consequent": "(can ?x drive)",
+      "bias": 0.0
+    },
+    {
+      "id": 2,
+      "pattern": "(is ?x electricCar)",
+      "consequent": "(needs ?x fuel)",
+      "bias": -5.0
+    },
+    {
+      "id": 3,
+      "pattern": "(is ?x damaged)",
+      "consequent": "(can ?x drive)",
+      "bias": -3.0
+    },
+    {
+      "id": 4,
+      "pattern": "(can ?x drive)",
+      "consequent": "(needs ?x engine)",
+      "bias": 0.0
+    },
+    {
+      "id": 5,
+      "pattern": "(needs ?x engine)",
+      "consequent": "(has ?x parts)",
+      "bias": 0.0
+    }
+  ]
+  
